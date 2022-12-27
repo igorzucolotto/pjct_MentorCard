@@ -1,0 +1,95 @@
+/* Geral */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+	border: none;
+}
+
+body {
+	background-color: #132645;
+}
+
+/* Card Central */
+
+#central-card {
+	background-color: #213963;
+	width: 300px;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 13vh;
+	border-radius: 15px;
+}
+
+#img-card img:hover {
+	transform: scale(1.05);
+}
+
+#tag-central {
+	font-weight: bold;
+	text-align: center;
+}
+
+#img-card{
+	text-align: center;
+}
+#img-card img {
+	border-radius: 15px;
+	padding: 15px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#infos {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	border-bottom: 1px solid #2795a7;
+}
+
+#eth {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#days {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#eth img, #days img {
+	padding-right: 5px;
+}
+
+#tag-central, #tag-frase, #infos, #creation {
+	padding: 10px;
+	text-align: center;
+}
+
+#creation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#creator {
+	padding-left: 5px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#creator:hover {
+	color: #3cefe7;
+}
+
+#creation img {
+	margin-right: 3px;
+	padding: 1px;
+	border-radius: 50%;
+	border: 1px solid #FFF;
+}
